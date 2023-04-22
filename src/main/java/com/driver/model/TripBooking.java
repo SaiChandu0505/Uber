@@ -1,9 +1,9 @@
 package com.driver.model;
 
-import lombok.experimental.FieldDefaults;
+
 
 import javax.persistence.*;
-import javax.validation.constraints.Max;
+
 
 @Entity
 @Table(name="tripBooking")
