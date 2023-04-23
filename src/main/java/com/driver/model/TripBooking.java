@@ -1,9 +1,6 @@
 package com.driver.model;
-
-
-
 import javax.persistence.*;
-
+import javax.validation.constraints.Max;
 
 @Entity
 @Table(name="tripBooking")
@@ -90,11 +87,11 @@ public class TripBooking {
         this.distanceInKm = distanceInKm;
     }
 
-    public TripStatus getTripStatus() {
+    public TripStatus getStatus() {
         return tripStatus;
     }
 
-    public void setTripStatus(TripStatus tripStatus) {
+    public void setStatus(TripStatus tripStatus) {
         this.tripStatus = tripStatus;
     }
 
